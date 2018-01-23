@@ -116,7 +116,7 @@ for exp in range(experiment):
 
         # print('Итерация',y,', лучший - ',best_L,best_L_weight)
 
-        plt.scatter(y, best_L_weight, color='g')
+        plt.scatter(y, best_L_weight, color='b')
 
         #
         #   Шаг 3. Отбрасываем слабейших (вес больше среднего) + добавляем мутантов до кол-ва L
